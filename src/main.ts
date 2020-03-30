@@ -1,13 +1,17 @@
 import { CommandExample01 } from './behavioral/Command/CommandExample01';
+import { ChainOfRespExample01 } from './behavioral/ChainOfResponsibility/ChainOfRespExample01';
 //import { CommandExample02 } from './behavioral/Command/CommandExample02';
 
 window.onload = () => {
 
     /**
-     * BEHAVIORAL
+     * BEHAVIORAL PATTERNS
      */
     
-    // Command Pattern
-    CommandExample01.test();
+    // Command
+    // CommandExample01.test();
+
+    // Chain of responsibility
+    ChainOfRespExample01.test();
 
 };
