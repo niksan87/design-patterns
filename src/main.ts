@@ -1,5 +1,6 @@
 import { CommandExample01 } from './behavioral/Command/CommandExample01';
 import { ChainOfRespExample01 } from './behavioral/ChainOfResponsibility/ChainOfRespExample01';
+import { ObserverExample01 } from './behavioral/Observer/ObserverExample01';
 //import { CommandExample02 } from './behavioral/Command/CommandExample02';
 
 window.onload = () => {
@@ -12,6 +13,9 @@ window.onload = () => {
     // CommandExample01.test();
 
     // Chain of responsibility
-    ChainOfRespExample01.test();
+    // ChainOfRespExample01.test();
+
+    // Observer
+    ObserverExample01.test();
 
 };
