@@ -1,21 +1,34 @@
-import { CommandExample01 } from './behavioral/Command/CommandExample01';
-import { ChainOfRespExample01 } from './behavioral/ChainOfResponsibility/ChainOfRespExample01';
-import { ObserverExample01 } from './behavioral/Observer/ObserverExample01';
-//import { CommandExample02 } from './behavioral/Command/CommandExample02';
+import { CommandExample } from './behavioral/Command/CommandExample';
+import { ChainOfRespExample } from './behavioral/ChainOfResponsibility/ChainOfRespExample';
+import { ObserverExample } from './behavioral/Observer/ObserverExample';
+import { MediatorExample } from './behavioral/Mediator/MediatorExample';
 
 window.onload = () => {
 
     /**
+     * ===================
      * BEHAVIORAL PATTERNS
+     * ===================
      */
     
-    // Command
-    // CommandExample01.test();
+    /**
+     * COMMAND
+     */
+    // CommandExample.test();
 
-    // Chain of responsibility
-    // ChainOfRespExample01.test();
+    /**
+     * CHAIN OF RESPONCIBILITY
+     */
+    // ChainOfRespExample.test();
 
-    // Observer
-    ObserverExample01.test();
+    /**
+     * OBSERVER
+     */
+    // ObserverExample.test();
+
+    /**
+     * MEDIATOR
+     */
+    MediatorExample.test();
 
 };

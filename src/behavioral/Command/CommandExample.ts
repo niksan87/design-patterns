@@ -2,7 +2,7 @@ import { KeyboardManager } from '../../utils/KeyboardManager';
 import { log } from '../../utils/Logger';
 import { getRandomNumber } from '../../utils/Misc';
 
-export module CommandExample01 {
+export module CommandExample {
     
     export const test = () => {
 

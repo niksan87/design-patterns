@@ -1,6 +1,6 @@
 import { log } from '../../utils/Logger';
 
-export module ObserverExample01 {
+export module ObserverExample {
     
     export const test = () => {
         const employee = new Employee('John', 'Developer');

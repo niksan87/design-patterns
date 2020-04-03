@@ -1,6 +1,6 @@
 import { log } from '../../utils/Logger';
 
-export module ChainOfRespExample01 {
+export module ChainOfRespExample {
     
     export const test = () => {
 
