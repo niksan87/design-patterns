@@ -2,6 +2,7 @@ import { CommandExample } from './behavioral/Command/CommandExample';
 import { ChainOfRespExample } from './behavioral/ChainOfResponsibility/ChainOfRespExample';
 import { ObserverExample } from './behavioral/Observer/ObserverExample';
 import { MediatorExample } from './behavioral/Mediator/MediatorExample';
+import { MementoExample } from './behavioral/Memento/MementoExample';
 
 window.onload = () => {
 
@@ -29,6 +30,11 @@ window.onload = () => {
     /**
      * MEDIATOR
      */
-    MediatorExample.test();
+    // MediatorExample.test();
+
+    /**
+     * MEMENTO
+     */
+    MementoExample.test();
 
 };
