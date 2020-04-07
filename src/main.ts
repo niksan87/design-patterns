@@ -5,6 +5,7 @@ import { MediatorExample } from './behavioral/Mediator/MediatorExample';
 import { MementoExample } from './behavioral/Memento/MementoExample';
 import { StateExample } from './behavioral/State/StateExample';
 import { StrategyExample } from './behavioral/Strategy/StrategyExample';
+import { IteratorExample } from './behavioral/Iterator/IteratorExample';
 
 window.onload = () => {
 
@@ -47,6 +48,11 @@ window.onload = () => {
     /**
      * STRATEGY (POLICY)
      */
-    StrategyExample.test();
+    // StrategyExample.test();
+
+    /**
+     * ITERATOR
+     */
+    IteratorExample.test();
 
 };
