@@ -6,7 +6,8 @@ import { MementoExample } from './behavioral/Memento/MementoExample';
 import { StateExample } from './behavioral/State/StateExample';
 import { StrategyExample } from './behavioral/Strategy/StrategyExample';
 import { IteratorExample } from './behavioral/Iterator/IteratorExample';
-import { TemplateMethodExample } from './behavioral/TemplateMethod/TemplareMethodExample';
+import { TemplateMethodExample } from './behavioral/TemplateMethod/TemplateMethodExample';
+import { VisitorExample } from './behavioral/Visitor/VisitorExample';
 
 window.onload = () => {
 
@@ -22,7 +23,7 @@ window.onload = () => {
     // CommandExample.test();
 
     /**
-     * CHAIN OF RESPONCIBILITY
+     * CHAIN OF RESPONSIBILITY
      */
     // ChainOfRespExample.test();
 
@@ -59,6 +60,11 @@ window.onload = () => {
     /**
      * TEMPLATE METHOD
      */
-    TemplateMethodExample.test();
+    // TemplateMethodExample.test();
+
+    /**
+     * VISITOR
+     */
+    VisitorExample.test();
 
 };
