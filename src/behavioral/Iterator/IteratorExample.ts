@@ -41,7 +41,7 @@ export module IteratorExample {
         key(): number;
         valid(): boolean;
     }
-
+    
     interface Aggregator<T> {
         getIterator(): Iterator<T>;
     }

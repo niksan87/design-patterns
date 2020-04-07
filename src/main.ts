@@ -6,6 +6,7 @@ import { MementoExample } from './behavioral/Memento/MementoExample';
 import { StateExample } from './behavioral/State/StateExample';
 import { StrategyExample } from './behavioral/Strategy/StrategyExample';
 import { IteratorExample } from './behavioral/Iterator/IteratorExample';
+import { TemplateMethodExample } from './behavioral/TemplateMethod/TemplareMethodExample';
 
 window.onload = () => {
 
@@ -53,6 +54,11 @@ window.onload = () => {
     /**
      * ITERATOR
      */
-    IteratorExample.test();
+    // IteratorExample.test();
+
+    /**
+     * TEMPLATE METHOD
+     */
+    TemplateMethodExample.test();
 
 };
