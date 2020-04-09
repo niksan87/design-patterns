@@ -9,7 +9,8 @@ import { IteratorExample } from './behavioral/Iterator/IteratorExample';
 import { TemplateMethodExample } from './behavioral/TemplateMethod/TemplateMethodExample';
 import { VisitorExample } from './behavioral/Visitor/VisitorExample';
 import { InterpreterExample } from './behavioral/Interpreter/InterpreterExample';
-import { SingletonExample } from './creational/singleton/SingletonExample';
+import { SingletonExample } from './creational/Singleton/SingletonExample';
+import { FactoryMethodExample } from './creational/FactoryMethod/FactoryMethodExample';
 
 window.onload = () => {
 
@@ -83,6 +84,11 @@ window.onload = () => {
     /**
      * SINGLETON
      */
-    SingletonExample.test();
+    // SingletonExample.test();
+
+    /**
+     * FACTORY METHOD
+     */
+    FactoryMethodExample.test();
 
 };

@@ -9,7 +9,7 @@ export module SingletonExample {
         const singB = Singleton.instance;
         log(singA === singB);
 
-        const singC = new Singleton();
+        // const singC = new Singleton();
     };
 
     class Singleton {
