@@ -9,6 +9,7 @@ import { IteratorExample } from './behavioral/Iterator/IteratorExample';
 import { TemplateMethodExample } from './behavioral/TemplateMethod/TemplateMethodExample';
 import { VisitorExample } from './behavioral/Visitor/VisitorExample';
 import { InterpreterExample } from './behavioral/Interpreter/InterpreterExample';
+import { SingletonExample } from './creational/singleton/SingletonExample';
 
 window.onload = () => {
 
@@ -71,6 +72,17 @@ window.onload = () => {
     /**
      * INTERPRETER
      */
-    InterpreterExample.test();
+    // InterpreterExample.test();
+
+    /**
+     * ===================
+     * CREATIONAL PATTERNS
+     * ===================
+     */
+
+    /**
+     * SINGLETON
+     */
+    SingletonExample.test();
 
 };
