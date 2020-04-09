@@ -11,6 +11,7 @@ import { VisitorExample } from './behavioral/Visitor/VisitorExample';
 import { InterpreterExample } from './behavioral/Interpreter/InterpreterExample';
 import { SingletonExample } from './creational/Singleton/SingletonExample';
 import { FactoryMethodExample } from './creational/FactoryMethod/FactoryMethodExample';
+import { BuilderExample } from './creational/Builder/BuilderExample';
 
 window.onload = () => {
 
@@ -19,7 +20,7 @@ window.onload = () => {
      * BEHAVIORAL PATTERNS
      * ===================
      */
-    
+
     /**
      * COMMAND
      */
@@ -89,6 +90,10 @@ window.onload = () => {
     /**
      * FACTORY METHOD
      */
-    FactoryMethodExample.test();
+    // FactoryMethodExample.test();
 
+    /**
+     * BUILDER
+     */
+    BuilderExample.test();
 };
