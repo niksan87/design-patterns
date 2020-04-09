@@ -8,6 +8,7 @@ import { StrategyExample } from './behavioral/Strategy/StrategyExample';
 import { IteratorExample } from './behavioral/Iterator/IteratorExample';
 import { TemplateMethodExample } from './behavioral/TemplateMethod/TemplateMethodExample';
 import { VisitorExample } from './behavioral/Visitor/VisitorExample';
+import { InterpreterExample } from './behavioral/Interpreter/InterpreterExample';
 
 window.onload = () => {
 
@@ -65,6 +66,11 @@ window.onload = () => {
     /**
      * VISITOR
      */
-    VisitorExample.test();
+    // VisitorExample.test();
+
+    /**
+     * INTERPRETER
+     */
+    InterpreterExample.test();
 
 };
