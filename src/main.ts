@@ -12,6 +12,7 @@ import { InterpreterExample } from './behavioral/Interpreter/InterpreterExample'
 import { SingletonExample } from './creational/Singleton/SingletonExample';
 import { FactoryMethodExample } from './creational/FactoryMethod/FactoryMethodExample';
 import { BuilderExample } from './creational/Builder/BuilderExample';
+import { AbstractFactoryExample } from './creational/AbstractFactory/AbstractFactoryExample';
 
 window.onload = () => {
 
@@ -95,5 +96,10 @@ window.onload = () => {
     /**
      * BUILDER
      */
-    BuilderExample.test();
+    // BuilderExample.test();
+
+    /**
+     * ABSTRACT FACTORY
+     */
+    AbstractFactoryExample.test();
 };
