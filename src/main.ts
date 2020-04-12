@@ -14,7 +14,8 @@ import { FactoryMethodExample } from './creational/FactoryMethod/FactoryMethodEx
 import { BuilderExample } from './creational/Builder/BuilderExample';
 import { AbstractFactoryExample } from './creational/AbstractFactory/AbstractFactoryExample';
 import { PrototypeExample } from './creational/Prototype/PrototypeExample';
-import { CompositeExample } from './structural/composite/CompositeExample';
+import { CompositeExample } from './structural/Composite/CompositeExample';
+import { FlyweightExample } from './structural/Flyweight/FlyweightExample';
 
 window.onload = () => {
 
@@ -119,6 +120,11 @@ window.onload = () => {
     /**
      * COMPOSITE
      */
-    CompositeExample.test();
+    // CompositeExample.test();
+
+    /**
+     * FLYWEIGHT
+     */
+    FlyweightExample.test();
 
 };
