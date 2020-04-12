@@ -13,6 +13,7 @@ import { SingletonExample } from './creational/Singleton/SingletonExample';
 import { FactoryMethodExample } from './creational/FactoryMethod/FactoryMethodExample';
 import { BuilderExample } from './creational/Builder/BuilderExample';
 import { AbstractFactoryExample } from './creational/AbstractFactory/AbstractFactoryExample';
+import { PrototypeExample } from './creational/Prototype/PrototypeExample';
 
 window.onload = () => {
 
@@ -101,5 +102,10 @@ window.onload = () => {
     /**
      * ABSTRACT FACTORY
      */
-    AbstractFactoryExample.test();
+    // AbstractFactoryExample.test();
+
+    /**
+     * ABSTRACT FACTORY
+     */
+    PrototypeExample.test();
 };
