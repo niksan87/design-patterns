@@ -16,6 +16,7 @@ import { AbstractFactoryExample } from './creational/AbstractFactory/AbstractFac
 import { PrototypeExample } from './creational/Prototype/PrototypeExample';
 import { CompositeExample } from './structural/Composite/CompositeExample';
 import { FlyweightExample } from './structural/Flyweight/FlyweightExample';
+import { BridgeExample } from './structural/Bridge/BridgeExample';
 
 window.onload = () => {
 
@@ -125,6 +126,11 @@ window.onload = () => {
     /**
      * FLYWEIGHT
      */
-    FlyweightExample.test();
+    // FlyweightExample.test();
+
+    /**
+     * BRIDGE
+     */
+    BridgeExample.test();
 
 };
