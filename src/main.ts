@@ -17,6 +17,7 @@ import { PrototypeExample } from './creational/Prototype/PrototypeExample';
 import { CompositeExample } from './structural/Composite/CompositeExample';
 import { FlyweightExample } from './structural/Flyweight/FlyweightExample';
 import { BridgeExample } from './structural/Bridge/BridgeExample';
+import { AdapterExample } from './structural/Adapter/AdapterExample';
 
 window.onload = () => {
 
@@ -131,6 +132,11 @@ window.onload = () => {
     /**
      * BRIDGE
      */
-    BridgeExample.test();
+    // BridgeExample.test();
+
+    /**
+     * ADAPTER
+     */
+    AdapterExample.test();
 
 };
