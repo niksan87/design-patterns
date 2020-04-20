@@ -18,6 +18,7 @@ import { CompositeExample } from './structural/Composite/CompositeExample';
 import { FlyweightExample } from './structural/Flyweight/FlyweightExample';
 import { BridgeExample } from './structural/Bridge/BridgeExample';
 import { AdapterExample } from './structural/Adapter/AdapterExample';
+import { DecoratorExample } from './structural/Decorator/DecoratorExample';
 
 window.onload = () => {
 
@@ -137,6 +138,11 @@ window.onload = () => {
     /**
      * ADAPTER
      */
-    AdapterExample.test();
+    //AdapterExample.test();
+
+    /**
+     * ADAPTER
+     */
+    DecoratorExample.test();
 
 };
