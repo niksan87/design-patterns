@@ -13,14 +13,17 @@ instances of the same class, provided some groundwork is done at design time.
 This is achieved by designing a new decorator class that wraps the original
 class. This wrapping could be achieved by the following sequence of steps:
 
-Subclass the original “Component” class into a “Decorator” class (see UML
-diagram); In the Decorator class, add a Component pointer as a field; Pass a
-Component to the Decorator constructor to initialize the Component pointer; In
-the Decorator class, redirect all “Component” methods to the “Component”
-pointer; and In the ConcreteDecorator class, override any Component method(s)
-whose behavior needs to be modified. This pattern is designed so that multiple
-decorators can be stacked on top of each other, each time adding a new
-functionality to the overridden method(s).
+-   Subclass the original “Component” class into a “Decorator” class (see UML
+    diagram);
+-   In the Decorator class, add a Component pointer as a field;
+-   Pass a Component to the Decorator constructor to initialize the Component
+    pointer;
+-   In the Decorator class, redirect all “Component” methods to the “Component”
+    pointer;
+-   In the ConcreteDecorator class, override any Component method(s) whose
+    behavior needs to be modified. This pattern is designed so that multiple
+    decorators can be stacked on top of each other, each time adding a new
+    functionality to the overridden method(s).
 
 Note that decorators and the original class object share a common set of
 features. In the UML diagram, the “operation()” method was available in both the

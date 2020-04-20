@@ -30,7 +30,7 @@ export module DecoratorExample {
 
         protected component: Component;
 
-        constructor(component: Component){
+        constructor(component: Component) {
             this.component = component;
         }
 

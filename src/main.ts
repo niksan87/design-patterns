@@ -19,6 +19,7 @@ import { FlyweightExample } from './structural/Flyweight/FlyweightExample';
 import { BridgeExample } from './structural/Bridge/BridgeExample';
 import { AdapterExample } from './structural/Adapter/AdapterExample';
 import { DecoratorExample } from './structural/Decorator/DecoratorExample';
+import { FacadeExample } from './structural/Facade/FacadeExample';
 
 window.onload = () => {
 
@@ -141,8 +142,13 @@ window.onload = () => {
     //AdapterExample.test();
 
     /**
-     * ADAPTER
+     * DECORATOR
      */
-    DecoratorExample.test();
+    // DecoratorExample.test();
+
+    /**
+     * FACADE
+     */
+    FacadeExample.test();
 
 };
