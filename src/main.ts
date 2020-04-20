@@ -20,6 +20,7 @@ import { BridgeExample } from './structural/Bridge/BridgeExample';
 import { AdapterExample } from './structural/Adapter/AdapterExample';
 import { DecoratorExample } from './structural/Decorator/DecoratorExample';
 import { FacadeExample } from './structural/Facade/FacadeExample';
+import { ProxyExample } from './structural/Proxy/ProxyExample';
 
 window.onload = () => {
 
@@ -149,6 +150,11 @@ window.onload = () => {
     /**
      * FACADE
      */
-    FacadeExample.test();
+    // FacadeExample.test();
+
+    /**
+     * PROXY
+     */
+    ProxyExample.test();
 
 };
