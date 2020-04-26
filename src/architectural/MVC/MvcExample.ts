@@ -1,19 +1,30 @@
 import { log } from '../../utils/Logger';
 
 export module MvcExample {
+
+    let counter = 0;
     
     export const test = () => {
-
-        const app = new Controller(new Model(), new View());
-        
+        const app = new Controller(new Model(), new View()); 
     };
 
     class Model {
         
-        public clickCount: number = 0;
+        public data: number = 0;
 
-        public click(): void {
-            this.clickCount++;
+        public updateData(data: number): void {
+            this.data = data;
+        }
+
+        public async getAsyncResponse(): Promise<number> {
+            log('Requesting data...');
+            return await new Promise((resolve) => {
+                setTimeout(() => {
+                    log('Data received:');
+                    counter++;
+                    resolve(counter);
+                }, 1000);
+            });
         }
 
     }
@@ -28,8 +39,8 @@ export module MvcExample {
             window.addEventListener('click', () => handler());
         }
         
-        public showClickCount(data): void {
-            console.log(data);
+        public showData(data): void {
+            log('1');
         }
         
     }
@@ -40,12 +51,14 @@ export module MvcExample {
             this.model = model;
             this.view = view;
             this.view.onClick(this.handleClick);
-            this.view.showClickCount(this.model.clickCount);
+            this.view.showData(this.model.data);
         }
 
         private handleClick = () => {
-            this.model.click();
-            this.view.showClickCount(this.model.clickCount);
+            this.model.getAsyncResponse().then((data) => {
+                this.model.updateData(data);
+                this.view.showData(this.model.data);
+            });            
         }
 
     }
