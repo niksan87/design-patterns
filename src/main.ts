@@ -21,6 +21,7 @@ import { AdapterExample } from './structural/Adapter/AdapterExample';
 import { DecoratorExample } from './structural/Decorator/DecoratorExample';
 import { FacadeExample } from './structural/Facade/FacadeExample';
 import { ProxyExample } from './structural/Proxy/ProxyExample';
+import { MvcExample } from './architectural/MVC/MvcExample';
 
 window.onload = () => {
 
@@ -155,6 +156,17 @@ window.onload = () => {
     /**
      * PROXY
      */
-    ProxyExample.test();
+    // ProxyExample.test();
+
+    /**
+     * ===================
+     * ARCHITECTURAL PATTERNS
+     * ===================
+     */
+
+    /**
+     * MVC
+     */
+    MvcExample.test();
 
 };
